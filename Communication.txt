@@ -1,0 +1,106 @@
+Configuration	Communication
+STM32CubeMX 	4.26.0
+Date	12/03/2018
+MCU	STM32F373CCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC1	OUT1 Configuration	DAC1_OUT1	PA4
+DAC1	OUT2 Configuration	DAC1_OUT2	PA5
+DAC2	OUT1 Configuration	DAC2_OUT1	PA6
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SDADC1	IN6-Differential	SDADC1_AIN6P	PB0
+SDADC1	IN6-Differential	SDADC1_AIN6M	PB1
+SDADC1	IN8-Differential	SDADC1_AIN8P	PE8
+SDADC1	IN8-Differential	SDADC1_AIN8M	PE9
+SDADC1	Conversion Configuration 0	SDADC1_CONF0	VP_SDADC1_CONF0
+SDADC3	IN6-Single-Ended	SDADC3_AIN6P	PD8
+SDADC3	IN8-Differential	SDADC3_AIN8P	PB14
+SDADC3	IN8-Differential	SDADC3_AIN8M	PB15
+SDADC3	Conversion Configuration 0	SDADC3_CONF0	VP_SDADC3_CONF0
+SPI2	Full-Duplex Master	SPI2_MISO	PA9
+SPI2	Full-Duplex Master	SPI2_MOSI	PA10
+SPI2	Full-Duplex Master	SPI2_SCK	PA8
+SPI2	Hardware NSS Input Signal	SPI2_NSS	PA11
+SYS	JTAG (5 pins)	SYS_JTCK-SWCLK	PA14
+SYS	JTAG (5 pins)	SYS_JTDI	PA15
+SYS	JTAG (5 pins)	SYS_JTDO-TRACESWO	PB3
+SYS	JTAG (5 pins)	SYS_JTMS-SWDIO	PA13
+SYS	JTAG (5 pins)	SYS_NJTRST	PB4
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PB7
+USART1	Asynchronous	USART1_TX	PB6
+USART3	Asynchronous	USART3_RX	PB9
+USART3	Asynchronous	USART3_TX	PB8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC14-OSC32_IN	RCC_OSC32_IN	
+4	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+10	PA0	GPIO_Input	DI3
+11	PA1	GPIO_Output	LED1
+12	PA2	GPIO_Output	LED2
+13	PA3	GPIO_Output	LED3
+14	PA4	DAC1_OUT1	DAC1_1
+15	PA5	DAC1_OUT2	DAC1_2
+16	PA6	DAC2_OUT1	DAC2_1
+18	PB0	SDADC1_AIN6P	SDC1_6P
+19	PB1	SDADC1_AIN6M	ADC1_6M
+20	PB2	GPIO_Input	DI2
+21	PE8	SDADC1_AIN8P	ADC1_8P
+22	PE9	SDADC1_AIN8M	ADC1_8M
+26	PB14	SDADC3_AIN8P	SDC3_8P
+27	PB15	SDADC3_AIN8M	ADC3_8M
+28	PD8	SDADC3_AIN6P	ADC3_6P
+29	PA8	SPI2_SCK	SPI_SCK
+30	PA9	SPI2_MISO	SPI_MISO
+31	PA10	SPI2_MOSI	SPI_MOSI
+32	PA11	SPI2_NSS	SPI_NSS
+33	PA12	GPIO_Output	DO1
+34	PA13	SYS_JTMS-SWDIO	SWDIO
+35	PF6	GPIO_Output	DO2
+36	PF7	GPIO_Input	DI1
+37	PA14	SYS_JTCK-SWCLK	SWCLK
+38	PA15	SYS_JTDI	JTDI
+39	PB3	SYS_JTDO-TRACESWO	JTDO
+40	PB4	SYS_NJTRST	JRST
+41	PB5	GPIO_Output	USART1_Ctrl
+42	PB6	USART1_TX	RS485_TX
+43	PB7	USART1_RX	RS485_RX
+45	PB8	USART3_TX	CAN_TX
+46	PB9	USART3_RX	CAN_RX
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Communication
+Project Folder : E:\STM32_wrok\F373\Com\Communication
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F3 V1.9.1
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

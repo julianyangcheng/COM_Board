@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Drivers/CMSIS/Include
+-I.\RTE\_Communication
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include
+-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F373xC -DUSE_HAL_DRIVER -DSTM32F373xC
+-o communication\stm32f3xx_hal_gpio.o --omf_browse communication\stm32f3xx_hal_gpio.crf --depend communication\stm32f3xx_hal_gpio.d "../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c"
