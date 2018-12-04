@@ -1,4 +1,7 @@
-SET PATH=C:\Keil_v5\ARM\ARMCLANG\Bin;C:\Keil_v5\ARM\ARMCC\Bin;D:\Program Files\STM32Cube\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;d:\Program Files\Git\cmd;C:\Users\QY\AppData\Local\Microsoft\WindowsApps;;C:\altera\13.0\modelsim_ase\win32aloem;C:\Program Files\Bandizip\;C:\Program Files\Java\jre1.8.0_181\bin
+SET PATH=C:\Keil_v5\ARM\ARMCC\Bin;D:\Program Files\STM32Cube\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;d:\Program Files\Git\cmd;C:\Users\QY\AppData\Local\Microsoft\WindowsApps;;C:\altera\13.0\modelsim_ase\win32aloem;C:\Program Files\Bandizip\;C:\Program Files\Java\jre1.8.0_181\bin
+SET ARMCC5_ASMOPT=--diag_suppress=9931
+SET ARMCC5_CCOPT=--diag_suppress=9931
+SET ARMCC5_LINKOPT=--diag_suppress=9931
 SET CPU_TYPE=STM32F373CCTx
 SET CPU_VENDOR=STMicroelectronics
 SET UV2_TARGET=Communication

@@ -44,14 +44,14 @@
 #include "dma.h"
 
 /* USER CODE BEGIN 0 */
-__IO uint16_t ADC_Converter_Value[100];
-void Buff_init()
-{
-	for (uint8_t i=0;i<100;i++)
-	{
-		ADC_Converter_Value[0] = 0;
-	}
-}
+//__IO uint16_t ADC_Converter_Value[100];
+//void Buff_init()
+//{
+//	for (uint8_t i=0;i<100;i++)
+//	{
+//		ADC_Converter_Value[0] = 0;
+//	}
+//}
 /* USER CODE END 0 */
 
 SDADC_HandleTypeDef hsdadc1;
